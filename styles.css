@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+body {
+    font-family: "Karla", sans-serif;
+    margin: auto;
+    max-width: 375px;
+    background-color: hsl(204, 43%, 93%);
+}
+
+.main {
+    margin: 0 auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+    width: 85%;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 2%;
+}
+
+.join {
+    background-color: white;
+    border-radius: 5px 5px 0 0;
+    padding: 30px;
+}
+
+.sub {
+    background-color: hsl(179, 62%, 43%);
+    padding: 30px;
+}
+
+.pitcher {
+    background-color: hsl(179, 62%, 43%);
+    padding: 30px;
+    opacity: 77%;
+    border-radius: 0 0 5px 5px;
+}
+
+h1 {
+    font-size: 1.3rem;
+    color: hsl(179, 62%, 43%);
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.3rem;
+    color: white;
+    margin: 0;
+}
+
+p {
+    font-size: 0.9rem;
+    color: white;
+}
+
+ul {
+    padding: 20px 0 0 0;
+    margin: 0;
+}
+
+li {
+    margin: 0;
+    color: white;
+    list-style: none;
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+}
+
+#pricetag {
+    font-weight: 700;
+    font-size: 1.8rem;
+    padding-right: 2%;
+}
+
+.vert-align {
+    position: relative;
+    bottom: 4px;
+    opacity: 70%;
+}
+
+.btn {
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    background-color: hsl(71, 73%, 54%);
+    width: 100%;
+    margin-top: 15px;
+    padding: 12px 0 12px 0;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.3);
+}
+
+.attribution {
+    color: hsl(179, 62%, 43%)
+}
+
+/*////////////// Font colors ////////////////*/
+
+.bright-text {
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+}
+
+.gray-text {
+    color: hsl(218, 22%, 67%);
+    line-height: 1.5rem;
+}
+
+/*////////////// Media queries ////////////////*/
+
+@media only screen and (min-width: 768px) {
+    body {
+        max-width: 1280px;
+    }
+
+    .main {
+        max-width: 600px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .join {
+        grid-column: 1 / 3;
+    }
+
+    .sub {
+        border-bottom-left-radius: 5px;
+    }
+
+    .pitcher {
+        border-bottom-left-radius: 0px;
+    }
+}
