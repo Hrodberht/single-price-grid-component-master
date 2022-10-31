@@ -1,5 +1,7 @@
 # Frontend Mentor - Single Price Grid Component
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ab016db6-378d-466c-a2a4-42af711a33eb/deploy-status)](https://app.netlify.com/sites/single-price-grid-component-mentor/deploys)
+
 ![Design preview for the Single Price Grid Component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
